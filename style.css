@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.body_main {
+    background-color: black;
+}
+
+.brand {
+    color:aqua;
+}
+
+.border-hover {
+    border-top: 5px solid transparent;
+    transform: translateY(-4px);
+}
+
+.border-hover:hover {
+    border-top: 5px solid aqua;
+    transform: translateY(-4px);
+}
+
+#sign-in {
+    fon
+    background: aqua;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#nav-length {
+    width: 90%;
+}
+
+/* main content */
+
+.home__stars,
+.home_title {
+    color: white;
+}
+
+/* home button */
+.home__button{
+    text-decoration: none;
+}
+
+
+
+.home__container,
+.home__data,
+.home__content,
+.home__info-content,{
+    display: grid;
+
+}
+.home__container{
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    
+}
+
+.home__data{
+    text-align: left;
+    row-gap: 3.5rem;
+    text-align: center;
+
+}
+
+    
+.home__content{
+    row-gap: .75rem;
+}
+.home__button{
+    border: 1px solid ;
+    padding: 1rem 1.5rem;
+    justify-self: center;
+    color: white;
+    font-size: var(--small-font-size);
+    letter-spacing: 3px;
+    display: inline-flex;
+    align-items: center;
+    transition: border-color .4s;
+}
+.home__button:hover {
+    border-color: aqua;
+    color: aqua;
+}
+.home__img{
+    text-align: center;
+    width: 330px;
+    margin-inline: auto;
+}
+
+.home__info{
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+    margin-top: 2rem;
+}
+.home__info-img{
+    width: 220px;
+}
+.home__info-content{
+    row-gap: 1.5rem;
+    font-size: 21px;
+    
+}
+.home__info-description{
+    font-size: var(--small-font-size);
+}
+
+.home__button-link{
+    text-decoration: none;
+    color: var(--text-color);
+    letter-spacing: 3px;
+    justify-self: flex-start;
+    transition: color .4s;
+
+}
+.home__button-link:hover{
+    color: aqua;
+}
+
+
+.swiper{
+    margin-inline: initial;
+}
+
+.float-left {
+    padding-top: 9%;
+    float:left;
+    width: 400px;; // or 33% for equal width independent of parent width
+}
